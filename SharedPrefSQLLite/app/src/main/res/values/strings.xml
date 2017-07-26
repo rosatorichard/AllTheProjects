@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SharedPrefSQLLite</string>
+    <string name="KEY_NAME">namee</string>
+    <string name="Gender">gender</string>
+</resources>

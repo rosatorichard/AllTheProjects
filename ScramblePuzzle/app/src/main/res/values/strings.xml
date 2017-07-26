@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ScramblePuzzle</string>
+    <string name="three_by_three">Three by Three</string>
+    <string name="four_by_four">Four by Four</string>
+    <string name="five_by_five">Five by Five</string>
+    <string name="puzzle_scrambler">PUZZLE SCRAMBER</string>
+</resources>

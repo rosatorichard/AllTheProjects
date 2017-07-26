@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorOffWhite"
+    tools:context="com.batchmates.android.scramblepuzzle.FiveByFive">
+
+    <ImageView
+        android:background="@drawable/five_puzzle_image"
+        android:layout_width="100sp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="100sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+
+        <ImageButton
+            android:id="@+id/twentyOne"
+            android:onClick="clickBegins"
+            android:background="@drawable/five_parttwentyone"
+            android:layout_width="54sp"
+            android:layout_margin="5sp"
+            android:layout_height="54sp" />
+
+        <ImageButton
+            android:id="@+id/twentyTwo"
+            android:onClick="clickBegins"
+            android:background="@drawable/five_parttwenttytwo"
+            android:layout_toRightOf="@+id/twentyOne"
+            android:layout_width="54sp"
+            android:layout_margin="5sp"
+            android:layout_height="54sp" />
+
+        <ImageButton
+            android:id="@+id/twentyThree"
+            android:onClick="clickBegins"
+            android:background="@drawable/five_parttwentythree"
+            android:layout_toRightOf="@+id/twentyTwo"
+            android:layout_width="54sp"
+            android:layout_margin="5sp"
+            android:layout_height="54sp" />
+
+        <ImageButton
+            android:id="@+id/twentyFour"
+            android:onClick="clickBegins"
+            android:background="@drawable/five_parttwentyfour"
+            android:layout_toRightOf="@+id/twentyThree"
+            android:layout_width="54sp"
+            android:layout_margin="5sp"
+            android:layout_height="54sp" />
+
+        <ImageButton
+            android:id="@+id/twentyFive"
+            android:onClick="clickBegins"
+            android:background="@drawable/five_parttwentyfive"
+            android:layout_toRightOf="@+id/twentyFour"
+            android:layout_width="54sp"
+            android:layout_margin="5sp"
+            android:layout_height="54sp" />
+
+
+
+
+
+        <ImageButton
+            android:id="@+id/sixteen"
+            android:onClick="clickBegins"
+            android:background="@drawable/five_partsixteen"
+            android:layout_below="@+id/twentyOne"
+            android:layout_width="54sp"
+            android:layout_margin="5sp"
+            android:layout_height="54sp" />
+
+        <ImageButton
+            android:id="@+id/seventeen"
+            android:onClick="clickBegins"
+            android:background="@drawable/five_partseventeen"
+            android:layout_below="@+id/twentyTwo"
+            android:layout_toRightOf="@+id/sixteen"
+            android:layout_width="54sp"
+            android:layout_margin="5sp"
+            android:layout_height="54sp" />
+
+        <ImageButton
+            android:id="@+id/eightteen"
+            android:onClick="clickBegins"
+            android:background="@drawable/five_parteightteen"
+            android:layout_below="@+id/twentyThree"
+            android:layout_toRightOf="@+id/seventeen"
+            android:layout_width="54sp"
+            android:layout_margin="5sp"
+            android:layout_height="54sp" />
+
+        <ImageButton
+            android:id="@+id/nineteen"
+            android:onClick="clickBegins"
+            android:background="@drawable/five_partnineteen"
+            android:layout_below="@+id/twentyFour"
+            android:layout_toRightOf="@+id/eightteen"
+            android:layout_width="54sp"
+            android:layout_margin="5sp"
+            android:layout_height="54sp" />
+
+        <ImageButton
+            android:id="@+id/twenty"
+            android:onClick="clickBegins"
+            android:background="@drawable/five_parttwenty"
+            android:layout_below="@+id/twentyFive"
+            android:layout_toRightOf="@+id/nineteen"
+            android:layout_width="54sp"
+            android:layout_margin="5sp"
+            android:layout_height="54sp" />
+
+
+
+
+
+        <ImageButton
+            android:id="@+id/eleven"
+            android:onClick="clickBegins"
+            android:background="@drawable/five_parteleven"
+            android:layout_below="@+id/sixteen"
+            android:layout_width="54sp"
+            android:layout_margin="5sp"
+            android:layout_height="54sp" />
+
+        <ImageButton
+            android:id="@+id/twelve"
+            android:onClick="clickBegins"
+            android:background="@drawable/five_parttwelve"
+            android:layout_below="@+id/seventeen"
+            android:layout_toRightOf="@+id/eleven"
+            android:layout_width="54sp"
+            android:layout_margin="5sp"
+            android:layout_height="54sp" />
+
+        <ImageButton
+            android:id="@+id/thirteen"
+            android:onClick="clickBegins"
+            android:background="@drawable/five_partthirteen"
+            android:layout_below="@+id/eightteen"
+            android:layout_toRightOf="@+id/twelve"
+            android:layout_width="54sp"
+            android:layout_margin="5sp"
+            android:layout_height="54sp" />
+
+        <ImageButton
+            android:id="@+id/fourteen"
+            android:onClick="clickBegins"
+            android:background="@drawable/five_partfourteen"
+            android:layout_below="@+id/nineteen"
+            android:layout_toRightOf="@+id/thirteen"
+            android:layout_width="54sp"
+            android:layout_margin="5sp"
+            android:layout_height="54sp" />
+
+        <ImageButton
+            android:id="@+id/fifteen"
+            android:onClick="clickBegins"
+            android:background="@drawable/five_partfifteen"
+            android:layout_below="@+id/twenty"
+            android:layout_toRightOf="@+id/fourteen"
+            android:layout_width="54sp"
+            android:layout_margin="5sp"
+            android:layout_height="54sp" />
+
+
+
+
+
+        <ImageButton
+            android:id="@+id/six"
+            android:onClick="clickBegins"
+            android:background="@drawable/five_partsix"
+            android:layout_below="@+id/eleven"
+            android:layout_width="54sp"
+            android:layout_margin="5sp"
+            android:layout_height="54sp" />
+
+        <ImageButton
+            android:id="@+id/seven"
+            android:onClick="clickBegins"
+            android:background="@drawable/five_partseven"
+            android:layout_below="@+id/twelve"
+            android:layout_toRightOf="@id/six"
+            android:layout_width="54sp"
+            android:layout_margin="5sp"
+            android:layout_height="54sp" />
+
+        <ImageButton
+            android:id="@+id/eight"
+            android:onClick="clickBegins"
+            android:background="@drawable/five_parteight"
+            android:layout_below="@+id/thirteen"
+            android:layout_toRightOf="@id/seven"
+            android:layout_width="54sp"
+            android:layout_margin="5sp"
+            android:layout_height="54sp" />
+
+        <ImageButton
+            android:id="@+id/nine"
+            android:onClick="clickBegins"
+            android:layout_below="@+id/fourteen"
+            android:background="@drawable/five_partnine"
+            android:layout_toRightOf="@id/eight"
+            android:layout_width="54sp"
+            android:layout_height="54sp"
+            android:layout_margin="5sp"/>
+
+        <ImageButton
+            android:id="@+id/ten"
+            android:onClick="clickBegins"
+            android:background="@drawable/five_partten"
+            android:layout_below="@+id/fifteen"
+            android:layout_toRightOf="@+id/nine"
+            android:layout_width="54sp"
+            android:layout_height="54sp"
+            android:layout_margin="5sp"/>
+
+
+
+
+        <ImageButton
+            android:id="@+id/one"
+            android:onClick="clickBegins"
+            android:background="@drawable/five_partone"
+            android:layout_below="@+id/six"
+            android:layout_width="54sp"
+            android:layout_margin="5sp"
+            android:layout_height="54sp" />
+
+        <ImageButton
+            android:id="@+id/two"
+            android:onClick="clickBegins"
+            android:background="@drawable/five_parttwo"
+            android:layout_below="@+id/seven"
+            android:layout_toRightOf="@+id/one"
+            android:layout_width="54sp"
+            android:layout_margin="5sp"
+            android:layout_height="54sp" />
+
+        <ImageButton
+            android:id="@+id/three"
+            android:onClick="clickBegins"
+            android:background="@drawable/five_partthree"
+            android:layout_below="@+id/eight"
+            android:layout_margin="5sp"
+            android:layout_toRightOf="@+id/two"
+            android:layout_width="54sp"
+            android:layout_height="54sp" />
+
+        <ImageButton
+            android:id="@+id/four"
+            android:onClick="clickBegins"
+            android:background="@drawable/five_partfour"
+            android:layout_below="@+id/nine"
+            android:layout_toRightOf="@+id/three"
+            android:layout_width="54sp"
+            android:layout_margin="5sp"
+            android:layout_height="54sp" />
+
+        <ImageButton
+            android:id="@+id/five"
+            android:onClick="clickBegins"
+            android:background="@drawable/four_black"
+            android:layout_below="@+id/ten"
+            android:layout_toRightOf="@+id/four"
+            android:layout_width="54sp"
+            android:layout_margin="5sp"
+            android:layout_height="54sp" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

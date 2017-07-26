@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MurderMystery</string>
+    <string-array name="choices">
+        <item>Write down note</item>
+        <item>Your notes</item>
+        <item>To next Room</item>
+        <item>To previus Room</item>
+        <item>Solve</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="backstory">This is the house of Miss Caroline. She has not been seen or heard from in weeks. The cops around here have no idea what happened so they called me in. I have my trusty notpad on my left to jot down anything of note and I never make a desision without looking at my notepad. Lets try to solve this. ...Creepy house aint it.</string>
+</resources>

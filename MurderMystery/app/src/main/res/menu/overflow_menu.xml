@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/listen"
+        android:title="Listen Closely"
+        ></item>
+
+    <item
+        android:id="@+id/LookForClues"
+        android:title="Look for Clues"
+        ></item>
+
+    <item
+        android:id="@+id/history"
+        android:title="House History"
+        ></item>
+
+</menu>

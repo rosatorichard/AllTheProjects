@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorOffWhite"
+    android:padding="20sp"
+    tools:context="com.batchmates.android.scramblepuzzle.MainActivity">
+
+    <TextView
+        android:gravity="center"
+        android:text="@string/puzzle_scrambler"
+        android:textSize="30sp"
+        android:textColor="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:layout_marginTop="10sp"
+        android:onClick="three"
+        android:text="@string/three_by_three"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:layout_marginTop="10sp"
+        android:onClick="four"
+        android:text="@string/four_by_four"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_marginTop="10sp"
+        android:onClick="five"
+        android:text="@string/five_by_five"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/puzzle"/>
+
+</LinearLayout>

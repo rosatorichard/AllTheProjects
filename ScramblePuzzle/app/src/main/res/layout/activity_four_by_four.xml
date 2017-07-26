@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorOffWhite"
+    android:padding="20sp"
+    tools:context="com.batchmates.android.scramblepuzzle.FourByFour">
+
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/puzzle"
+        android:layout_width="50sp"
+        android:layout_height="50sp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/imgBtnTopLeft"
+            android:onClick="topLeft"
+            android:layout_margin="5sp"
+            android:background="@drawable/four_topleft"
+            android:layout_width="67.5sp"
+            android:layout_height="67.5sp" />
+
+        <ImageButton
+            android:id="@+id/imgBtnTopMiddle"
+            android:onClick="topMiddle"
+            android:layout_margin="5sp"
+            android:background="@drawable/four_topmiddle"
+            android:layout_toRightOf="@+id/imgBtnTopLeft"
+            android:layout_width="67.5sp"
+            android:layout_height="67.5sp" />
+
+        <ImageButton
+            android:id="@+id/imgBtnTopRight"
+            android:onClick="topRight"
+            android:layout_margin="5sp"
+            android:background="@drawable/four_topright"
+            android:layout_toRightOf="@+id/imgBtnTopMiddle"
+            android:layout_width="67.5sp"
+            android:layout_height="67.5sp" />
+
+        <ImageButton
+            android:id="@+id/imgBtnTopRightTwo"
+            android:onClick="topRightTwo"
+            android:layout_margin="5sp"
+            android:background="@drawable/four_toprighttwo"
+            android:layout_toRightOf="@+id/imgBtnTopRight"
+            android:layout_width="67.5sp"
+            android:layout_height="67.5sp" />
+
+        <ImageButton
+            android:id="@+id/imgBtnCenterLeft"
+            android:onClick="centerLeft"
+            android:layout_margin="5sp"
+            android:background="@drawable/four_centerleft"
+            android:layout_below="@id/imgBtnTopLeft"
+            android:layout_width="67.5sp"
+            android:layout_height="67.5sp" />
+
+        <ImageButton
+            android:id="@+id/imgBtnCenterMiddle"
+            android:onClick="centerMiddle"
+            android:layout_margin="5sp"
+            android:background="@drawable/four_centermiddle"
+            android:layout_below="@+id/imgBtnTopMiddle"
+            android:layout_toRightOf="@+id/imgBtnCenterLeft"
+            android:layout_width="67.5sp"
+            android:layout_height="67.5sp" />
+
+        <ImageButton
+            android:id="@+id/imgBtnCenterRight"
+            android:onClick="centerRight"
+            android:layout_margin="5sp"
+            android:background="@drawable/four_centerright"
+            android:layout_below="@+id/imgBtnTopRight"
+            android:layout_toRightOf="@+id/imgBtnCenterMiddle"
+            android:layout_width="67.5sp"
+            android:layout_height="67.5sp" />
+
+        <ImageButton
+            android:id="@+id/imgBtnCenterRightTwo"
+            android:onClick="centerRighttwo"
+            android:layout_margin="5sp"
+            android:background="@drawable/four_centerrighttwo"
+            android:layout_below="@+id/imgBtnTopRightTwo"
+            android:layout_toRightOf="@+id/imgBtnCenterRight"
+            android:layout_width="67.5sp"
+            android:layout_height="67.5sp" />
+
+        <ImageButton
+            android:id="@+id/imgBtnBottomLeft"
+            android:onClick="bottomLeft"
+            android:layout_margin="5sp"
+            android:background="@drawable/four_bottomleft"
+            android:layout_below="@+id/imgBtnCenterLeft"
+            android:layout_width="67.5sp"
+            android:layout_height="67.5sp" />
+
+        <ImageButton
+            android:id="@+id/imgBtnBottomMiddle"
+            android:onClick="bottomMiddle"
+            android:layout_margin="5sp"
+            android:background="@drawable/four_bottommiddle"
+            android:layout_below="@+id/imgBtnCenterMiddle"
+            android:layout_toRightOf="@+id/imgBtnBottomLeft"
+            android:layout_width="67.5sp"
+            android:layout_height="67.5sp" />
+
+        <ImageButton
+            android:id="@+id/imgBtnBottomRight"
+            android:onClick="bottomRight"
+            android:layout_margin="5sp"
+            android:background="@drawable/four_bottomright"
+            android:layout_below="@+id/imgBtnCenterRight"
+            android:layout_toRightOf="@+id/imgBtnBottomMiddle"
+            android:layout_width="67.5sp"
+            android:layout_height="67.5sp" />
+
+        <ImageButton
+            android:id="@+id/imgBtnBottomRightTwo"
+            android:onClick="bottomRighttwo"
+            android:layout_margin="5sp"
+            android:background="@drawable/four_bottomrighttwo"
+            android:layout_below="@+id/imgBtnCenterRightTwo"
+            android:layout_toRightOf="@+id/imgBtnBottomRight"
+            android:layout_width="67.5sp"
+            android:layout_height="67.5sp" />
+
+
+        <ImageButton
+            android:id="@+id/imgBtnBottomTwoLeft"
+            android:onClick="fourbottomLeft"
+            android:layout_margin="5sp"
+            android:background="@drawable/four_bottomtwoleft"
+            android:layout_below="@+id/imgBtnBottomLeft"
+            android:layout_width="67.5sp"
+            android:layout_height="67.5sp" />
+
+        <ImageButton
+            android:id="@+id/imgBtnBottomTwoMiddle"
+            android:onClick="fourbottomMiddle"
+            android:layout_margin="5sp"
+            android:background="@drawable/four_bottomtwomiddle"
+            android:layout_below="@+id/imgBtnBottomMiddle"
+            android:layout_toRightOf="@+id/imgBtnBottomTwoLeft"
+            android:layout_width="67.5sp"
+            android:layout_height="67.5sp" />
+
+        <ImageButton
+            android:id="@+id/imgBtnBottomTwoRight"
+            android:onClick="fourbottomRight"
+            android:layout_margin="5sp"
+            android:background="@drawable/four_bottomtworight"
+            android:layout_below="@+id/imgBtnBottomRight"
+            android:layout_toRightOf="@+id/imgBtnBottomTwoMiddle"
+            android:layout_width="67.5sp"
+            android:layout_height="67.5sp" />
+
+        <ImageButton
+            android:id="@+id/imgBtnBottomTwoRightTwo"
+            android:onClick="fourbottomRighttwo"
+            android:layout_margin="5sp"
+            android:background="@drawable/four_black"
+            android:layout_below="@+id/imgBtnBottomRightTwo"
+            android:layout_toRightOf="@+id/imgBtnBottomTwoRight"
+            android:layout_width="67.5sp"
+            android:layout_height="67.5sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

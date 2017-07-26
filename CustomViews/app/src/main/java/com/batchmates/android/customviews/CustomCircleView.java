@@ -33,8 +33,7 @@ public class CustomCircleView extends View {
 
         typedArray.recycle();
     }
-
-
+    
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
